@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+
+#bgPhoto{
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    float: left;
+    position: relative;
+    transition: 0.5s;
+}
+
+#gender{
+    width: 300px;
+    height: 430px;
+    float: left;
+    background: transparent;
+    position: absolute;
+    top: 140px;
+    left: 200px;
+    transition: 0.5s ;
+}
+
+#nm{
+    width:300px;
+    height: 50px;
+    float: left;
+    position: absolute;
+    left: 200px;
+    bottom: 0px;
+    transition: 0.5s;
+}
+
+#nmBoy{
+    width:300px;
+    height: 50px;
+    float: left;
+    position: absolute;
+    right: 200px;
+    bottom: 0px;
+    transition: 0.5s;
+}
+
+#boy{
+    width: 300px;
+    height: 470px;
+    background-color: transparent;
+    float: left;
+    position: absolute;
+    bottom: 49px;
+    right: 200px;
+    transition: 0.5s all;
+}
+
+#fight{
+    width: 250px;
+    height: 100px;
+    float: left;
+    position: absolute;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 270px;
+    left: 550px;
+}
+
+#text, #nme, #nmeBoy{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 100;
+    color: red;
+}
+
+#nme, #nmeBoy{
+    color: black;
+}
+
+#fghText{
+    font-size: 64px;
+    color: red;
+    font-family: forte;
+}
+
+#information, #information1, #information2, #information3, #information4, #information5{
+    font-size:32px;
+    text-align:center;
+    color: black;
+}
+
+#information4{
+    color: red;
+}
